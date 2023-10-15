@@ -1,0 +1,35 @@
+GET products/_search
+{
+  "size": 0,
+  "query": {
+    "query_string": {
+      "query": """Certainly! If you're in the market for a new phone, I would recommend checking out the Google Pixel 8 Pro or the Apple iPhone 15 Pro. The Google Pixel 8 Pro offers an excellent Android experience with its hig -quality camera and performance. On the other hand, the Apple iPhone 15 Pro provides a premium iOS experience with top-notch features. For accessories, you might want to consider the Apple AirPods Pro (2nd Gen) with MagSafe Case or the Bose QuietComfort 45 Headphones for a great audio experience. Don't forget to explore our Verizon Unlimited Ultimate plan for the best connectivity, including double the mobile hotspot data and international connectivity. If you have more specific requirements, feel free to ask for further assistance!
+      """,
+      "analyzer": "custom_cross_fields_analyzer"
+    }
+  },
+  "aggs": {
+    "category_agg": {
+      "terms": {
+        "field": "Category"
+      },
+      "aggs": {
+        "hits": {
+          "top_hits": {
+            "sort": [
+              {
+                "_score": {
+                  "order": "desc"
+                }
+              }
+            ],
+            "_source": [
+              "Name", "Brand", "Price", "ImageURL", "URL"
+            ],
+            "size": 3
+          }
+        }
+      }
+    }
+  }
+}

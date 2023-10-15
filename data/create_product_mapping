@@ -1,0 +1,38 @@
+PUT /products 
+{
+  "mappings": {
+    "properties" : {
+      "Name" : {
+        "type" : "text",
+        "analyzer": "custom_cross_fields_analyzer"
+      },
+      "Brand" : {
+        "type" : "text"
+      },
+      "Category" : {
+        "type" : "keyword"
+      },
+      "Price" : {
+        "type" : "text",
+        "analyzer": "english"
+      },
+      "ImageURL" : {
+        "type" : "text"
+      }, 
+      "URL" : {
+        "type" : "text"
+      }
+    }
+  },
+   "settings": {
+    "analysis": {
+      "analyzer": {
+        "custom_cross_fields_analyzer": {
+          "type": "custom",
+          "tokenizer": "standard",
+          "filter": ["lowercase"]
+        }
+      }
+    }
+  }
+}

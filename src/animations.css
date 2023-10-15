@@ -1,0 +1,36 @@
+.ui-container {
+  position: fixed;
+  z-index: 1;
+  right: 10rem;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  display: grid;
+  place-items: center;
+}
+
+.ui-enter, .ui-appear {
+  height: 100%;
+  transform: translateY(1000px);
+  opacity: 0;
+}
+.ui-enter-active, .ui-appear-active {
+  height: 100%;
+
+  transform: translateY(0);
+  opacity: 1;
+  transition: opacity 300ms, transform 300ms;
+}
+.ui-exit {
+  height: 100%;
+
+  transform: translateY(0);
+  opacity: 1;
+}
+.ui-exit-active {
+  height: 100%;
+
+  transform: translateY(1000px);
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+}

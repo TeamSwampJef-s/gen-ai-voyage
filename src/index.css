@@ -1,0 +1,200 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+
+@font-face {
+  font-family: 'VerizonNHGeDS'; /* Give your custom font a name */
+  src: url('/fonts/VerizonNHGeDS-Regular.woff') format('woff'); /* Specify the path to your font file */
+  font-weight: normal; /* Font weight (e.g., normal, bold) */
+  font-style: normal; /* Font style (e.g., normal, italic) */
+}
+
+@font-face {
+  font-family: 'VerizonNHGeDS'; /* Give your custom font a name */
+  src: url('/fonts/VerizonNHGeDS-Bold.woff') format('woff'); /* Specify the path to your font file */
+  font-weight: bold; /* Font weight (e.g., normal, bold) */
+  font-style: normal; /* Font style (e.g., normal, italic) */
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+* {
+  scrollbar-width: none;
+  scrollbar-color: #ff0000 #000000;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 17px;
+}
+
+*::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: #ff0000;
+  border-radius: 2px;
+  border: 0px double #ffffff;
+}
+
+body {
+  margin: 0;
+  /* background-image: linear-gradient(to top, #b00000 0%, #151515 100%); */
+  background: radial-gradient(circle at 10.6% 22.1%, rgb(206, 18, 18) 0%, rgb(122, 21, 21) 100.7%);
+  /* background-image: url('/images/background.jpg'); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: 'VerizonNHGeDS';
+}
+
+.card {
+  background-color: #000000;
+  border-radius: 5px;
+  min-width: 250px;
+  min-height: 150px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 40px;
+  padding: 2rem;
+  font-family: 'VerizonNHGeDS';
+}
+
+.user-interface {
+  overflow: hidden;
+  height: max-content;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  animation: rotateAnimation 2s alternate infinite;
+  max-height: 30rem;
+  transition: max-height 300ms;
+  overflow-y: scroll;
+}
+.user-interface:has(button) {
+  max-height: 90vh;
+}
+
+.flip-in-ver-right {
+  animation: flip-in-ver-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+@keyframes flip-in-ver-right {
+  0% {
+    transform: translateY(1000px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.flip-out-ver-left {
+  animation: flip-out-ver-left 0.45s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+@keyframes flip-out-ver-left {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(1000px);
+    opacity: 0;
+  }
+}
+
+
+
+@keyframes rotateAnimation {
+  0% {
+    transform: perspective(1000px) rotateY(-12.46deg) rotateX(0.21deg);
+  }
+  100% {
+    transform: perspective(1000px) rotateY(-14deg) rotateX(0.24deg); /* Slightly changed rotateY */
+  }
+}
+
+.mic-button {
+  position: fixed;
+  z-index: 2;
+  top: 6rem;
+  right: 0px;
+  left: 0px;
+  margin: auto;
+  fill: red;
+  background: white;
+  border: none;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 100%;
+  transition: 0.4s;
+}
+
+.mic-button:hover {
+  cursor: pointer;
+  background: #ff5f6a;
+}
+
+.mic-button:disabled {
+  filter: invert(1);
+}
+
+.close-button {
+  position: fixed;
+  z-index: 2;
+  top: 3rem;
+  right: 3rem;
+  margin: auto;
+  fill: red;
+  background: white;
+  border: none;
+  height: 6rem;
+  width: 6rem;
+  border-radius: 100%;
+  transition: 0.4s;
+}
+
+.close-button:hover {
+  cursor: pointer;
+  background: #ff5f6a;
+}
+
+.Transcript {
+  z-index: 2;
+  left: 0;
+  right: 0;
+  bottom: 6rem;
+  font-size: 1.7rem;
+  position: fixed;
+  margin: auto;
+  max-width: 80rem;
+  width: max-content;
+  color: white;
+  background-color: rgba(0,0,0,0.5);
+  padding: 1rem;
+}
+
+.main-logo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 20rem;
+}
+
+.disclaimer {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  color: white;
+  font-size: 1.8rem;
+}

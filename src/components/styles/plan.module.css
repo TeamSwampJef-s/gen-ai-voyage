@@ -1,0 +1,59 @@
+.plan {
+  width: 60rem;
+}
+
+.plan h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.recommendDiv {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.recommendDiv img {
+  height: 1.5rem;
+  margin-right: 1rem;
+}
+
+.recommendDiv i {
+  font-size: 1.6rem;
+  font-style: normal;
+}
+
+.planInstance {
+  background-color: black;
+  color: #FFF;
+  padding: 4rem;
+  border-radius: 10px;
+  margin: 2rem 0;
+}
+
+.planHeader {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.planHeader h2 {
+  font-size: 2rem;
+}
+
+.planHeader p {
+  font-size: 1.8rem;
+}
+
+.planInstance span {
+  font-size: 1.6rem;
+}
+
+.recommend {
+  background-color: #e91312;
+  /* background-image: url('https://github.githubassets.com/images/modules/dashboard/universe23/bg.png'); */
+  background-repeat: no-repeat;
+  background-size: cover;
+}

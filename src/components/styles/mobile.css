@@ -1,0 +1,121 @@
+.mobile {
+  width: 20rem;
+  border-radius: 5px;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1px solid rgba(0,0,0,0.1);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 5px 40px;
+  flex-grow: 1;
+  background-color: black;
+  background-image: linear-gradient(to bottom, #000000 0%, #f43b47  100%);
+  color: white;
+  flex-grow: 1;
+}
+
+.mobile #logo{
+  height: 4rem;
+  margin-left: -10px;
+}
+
+.mobile img {
+  height: 2rem;
+  margin-right: 10px;
+}
+
+.mobile h1 {
+  font-size: 2rem;
+  margin-right: .4rem;
+}
+
+.mobile p {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.mobile > div {
+  width: 100%;
+  height: 20rem;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.mobile button{
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  width: 14rem;
+  height: 3rem;
+  margin: 1rem auto;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: 0.1s ease;
+}
+
+.mobile button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+}
+
+.slide-in-top {
+  animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  animation-delay: .5s;
+}
+@keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-1000px);
+            transform: translateY(-1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-out-top {
+  animation: slide-out-top 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+@keyframes slide-out-top {
+  0% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateY(-1000px);
+            transform: translateY(-1000px);
+    opacity: 0;
+  }
+}
+
+
+
+.mobile-enter, .mobile-appear {
+  height: 100%;
+  transform: translateY(1000px);
+  opacity: 0;
+}
+.mobile-enter-active, .mobile-appear-active {
+  height: 100%;
+
+  transform: translateY(0);
+  opacity: 1;
+  transition: opacity 300ms, transform 300ms;
+}
+.mobile-exit {
+  height: 100%;
+
+  transform: translateY(0);
+  opacity: 1;
+}
+.mobile-exit-active {
+  height: 100%;
+
+  transform: translateY(1000px);
+  opacity: 0;
+  transition: opacity 300ms, transform 300ms;
+}

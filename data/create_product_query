@@ -1,0 +1,142 @@
+PUT /products/_doc/1
+{"Name":"Samsung Galaxy Tab S9 FE 5G","Category":"Tablet","Brand":"Samsung","Price":"Starts at $12.49/mo\n$15.27/mo\nDetails\nfor 36 months, 0% APR\nRetail price: $549.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-galaxy-tab-s9-fe-5g-smx518uzaa-gray","URL":"https://www.verizon.com/tablets/samsung-galaxy-tab-s9-fe-5g/"}
+PUT /products/_doc/2
+{"Name":"Samsung Galaxy Tab S9+ 5G","Category":"Tablet","Brand":"Samsung","Price":"Starts at $29.16/mo\n$31.94/mo\nDetails\nfor 36 months, 0% APR\nRetail price: $1149.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-galaxy-tab-s9-plus-pre-order-2023","URL":"https://www.verizon.com/tablets/samsung-galaxy-tab-s9-plus-5g/"}
+PUT /products/_doc/3
+{"Name":"Samsung Galaxy Tab S8+ 5G","Category":"Tablet","Brand":"Samsung","Price":"Starts at $30.55/mo\nfor 36 months, 0% APR\nRetail price: $1099.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-galaxy-tab-s8-plus-5g-smx808uzaa-graphite-128-gb-2022","URL":"https://www.verizon.com/tablets/samsung-galaxy-tab-s8-plus-5g/"}
+PUT /products/_doc/4
+{"Name":"Samsung Galaxy Chromebook Go","Category":"Tablet","Brand":"Samsung","Price":"Starts at $9.72/mo\nfor 36 months, 0% APR\nRetail price: $349.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-galaxy-chromebook-go-2021-a","URL":"https://www.verizon.com/tablets/samsung-galaxy-chromebook-go/"}
+PUT /products/_doc/5
+{"Name":"Samsung Galaxy Book Go 5G","Category":"Tablet","Brand":"Samsung","Price":"Starts at $19.44/mo\n$22.22/mo\nDetails\nfor 36 months, 0% APR\nRetail price: $799.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-galaxy-book-go-5g-np545xlakv","URL":"https://www.verizon.com/tablets/samsung-galaxy-book-go-5g/"}
+PUT /products/_doc/6
+{"Name":"Samsung Galaxy Tab A7 Lite","Category":"Tablet","Brand":"Samsung","Price":"Starts at $2.77/mo\n$5.55/mo\nDetails\nfor 36 months, 0% APR\nRetail price: $199.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-galaxy-tab-a7-lite-smt227uzaa-lte-gray","URL":"https://www.verizon.com/tablets/samsung-galaxy-tab-a7-lite/"}
+PUT /products/_doc/7
+{"Name":"Samsung Galaxy Tab S7 FE 5G","Category":"Tablet","Brand":"Samsung","Price":"Starts at $15.83/mo\n$18.61/mo\nDetails\nfor 36 months, 0% APR\nRetail price: $669.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-galaxy-tab-s7-lite-fe-smt738uzka","URL":"https://www.verizon.com/tablets/samsung-galaxy-tab-s7-fe-5g/"}
+PUT /products/_doc/8
+{"Name":"Samsung Galaxy Tab S7 5G","Category":"Tablet","Brand":"Samsung","Price":"Starts at $23.61/mo\nfor 36 months, 0% APR\nRetail price: $849.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-galaxy-tab-s7-5g-premium-11-in-black-tablet-smt878uzka","URL":"https://www.verizon.com/tablets/samsung-galaxy-tab-s7-5g/"}
+PUT /products/_doc/9
+{"Name":"Apple iPad (9th Generation)","Category":"Tablet","Brand":"Apple","Price":"Starts at $12.77/mo\nfor 36 months, 0% APR\nRetail price: $459.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-ipad-10-2-cellular-space-gray","URL":"https://www.verizon.com/tablets/apple-ipad-9th-gen/"}
+PUT /products/_doc/10
+{"Name":"Apple iPad (10th Generation)","Category":"Tablet","Brand":"Apple","Price":"Starts at $16.66/mo\nfor 36 months, 0% APR\nRetail price: $599.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-ipad-new-10-blue-panax-2022","URL":"https://www.verizon.com/tablets/apple-ipad-10th-generation/"}
+PUT /products/_doc/11
+{"Name":"Apple iPad Pro 11-inch (4th Generation)","Category":"Tablet","Brand":"Apple","Price":"Starts at $27.77/mo\nfor 36 months, 0% APR\nRetail price: $999.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-ipad-pro-11-replacement-coleus-spacegray-2022","URL":"https://www.verizon.com/tablets/apple-ipad-pro-11-inch-4th-generation/"}
+PUT /products/_doc/12
+{"Name":"Apple iPad Pro 12.9-inch (6th Generation)","Category":"Tablet","Brand":"Apple","Price":"Starts at $36.11/mo\nfor 36 months, 0% APR\nRetail price: $1299.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-ipad-pro-12-9-replacement-nyssa-spacegray-2022","URL":"https://www.verizon.com/tablets/apple-ipad-pro-12-9-inch-6th-generation/"}
+PUT /products/_doc/13
+{"Name":"Apple iPad Air (5th Gen)","Category":"Tablet","Brand":"Apple","Price":"Starts at $20.83/mo\nfor 36 months, 0% APR\nRetail price: $749.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-ipad-air-pink-2022","URL":"https://www.verizon.com/tablets/apple-ipad-air-2022/"}
+PUT /products/_doc/14
+{"Name":"Apple iPad mini (2021)","Category":"Tablet","Brand":"Apple","Price":"Starts at $18.05/mo\nfor 36 months, 0% APR\nRetail price: $649.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-ipad-mini-cellular-pink-fall2021","URL":"https://www.verizon.com/tablets/apple-ipad-mini-2021/"}
+PUT /products/_doc/15
+{"Name":"Apple 11-inch iPad Pro (2021)","Category":"Tablet","Brand":"Apple","Price":"Starts at $27.77/mo\nfor 36 months, 0% APR\nRetail price: $999.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/ipad-pro-cellular-11-in-silver-7-5g","URL":"https://www.verizon.com/tablets/apple-ipad-pro-11-2021"}
+PUT /products/_doc/16
+{"Name":"Apple 12.9-inch iPad Pro (2021)","Category":"Tablet","Brand":"Apple","Price":"Starts at $66.66/mo\nfor 36 months, 0% APR\nRetail price: $2399.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-ipad-pro-cellular-12-9-inch-spacegray-5g-capable","URL":"https://www.verizon.com/tablets/apple-ipad-pro-12-9-2021/"}
+PUT /products/_doc/17
+{"Name":"Apple iPad mini","Category":"Tablet","Brand":"Apple","Price":"Starts at $14.72/mo\nfor 36 months, 0% APR\nRetail price: $529.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-ipadmini-2019-silver","URL":"https://www.verizon.com/tablets/apple-new-ipad-mini/"}
+PUT /products/_doc/18
+{"Name":"Apple iPad Air","Category":"Tablet","Brand":"Apple","Price":"Starts at $21.66/mo\nfor 36 months, 0% APR\nRetail price: $779.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-ipadair-2019-spacegray","URL":"https://www.verizon.com/tablets/apple-new-ipad-air/"}
+PUT /products/_doc/19
+{"Name":"Apple 11-inch iPad Pro (2018) Certified Pre-Owned","Category":"Tablet","Brand":"Apple","Price":"Starts at $20.69/mo\nfor 36 months, 0% APR\nRetail price: $744.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/ipad-pro-11-in-cellular-silver","URL":"https://www.verizon.com/tablets/apple-11-inch-ipad-pro-2018-certified-pre-owned"}
+PUT /products/_doc/20
+{"Name":"Apple 11-inch iPad Pro (2021) Certified Pre-Owned","Category":"Tablet","Brand":"Apple","Price":"Starts at $22.08/mo\nfor 36 months, 0% APR\nRetail price: $794.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/ipad-pro-cellular-11-in-space-gray-5g","URL":"https://www.verizon.com/tablets/apple-11-inch-ipad-pro-2021-certified-pre-owned/"}
+PUT /products/_doc/21
+{"Name":"Apple Watch Ultra 2","Brand":"Apple","Category":"Smartwatch","Price":"Starts at $22.22/mo\nfor 36 months, 0% APR\nRetail price: $799.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-watch-ultra-2-gps-cellular-49mm-titanium-case-blue-alpine-loop-sm-mrek3ll-a-a","URL":"https://www.verizon.com/connected-smartwatches/apple-watch-ultra-2/"}
+PUT /products/_doc/22
+{"Name":"Apple Watch Series 9","Brand":"Apple","Category":"Smartwatch","Price":"Starts at $13.88/mo\nfor 36 months, 0% APR\nRetail price: $499.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-watch-series-9-gps-cellular-41mm-midnight-aluminum-case-midnight-sport-band-mrhr3ll-a-a","URL":"https://www.verizon.com/connected-smartwatches/apple-watch-series-9/"}
+PUT /products/_doc/23
+{"Name":"Apple Watch Series 8","Brand":"Apple","Category":"Smartwatch","Price":"Starts at $14.72/mo\nfor 36 months, 0% APR\nRetail price: $529.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-watch-series-8-cellular-45mm-midnight-aluminum-midnight-sport-band-34fr-screen-usen-mnvl3ll-a","URL":"https://www.verizon.com/connected-smartwatches/apple-watch-series-8/"}
+PUT /products/_doc/24
+{"Name":"Apple Watch SE (2nd Gen)","Brand":"Apple","Category":"Smartwatch","Price":"Starts at $8.33/mo\nfor 36 months, 0% APR\nRetail price: $299.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-watch-se-gps-cellular-40mm-starlight-aluminum-case-starlight-sport-band-mrfw3ll-a-a","URL":"https://www.verizon.com/connected-smartwatches/apple-watch-se-2nd-generation/"}
+PUT /products/_doc/25
+{"Name":"Apple Watch Series 7","Brand":"Apple","Category":"Smartwatch","Price":"Starts at $13.33/mo\nfor 36 months, 0% APR\nRetail price: $479.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-watch-series-7-lte-45mm-green-aluminum-clover-sport-band-mkj93ll-a-sku4790173","URL":"https://www.verizon.com/connected-smartwatches/apple-watch-series-7/"}
+PUT /products/_doc/26
+{"Name":"Apple Watch SE (2nd Gen) (Certified Pre-Owned)","Brand":"Apple","Category":"Smartwatch","Price":"Starts at $7.91/mo\nfor 36 months, 0% APR\nRetail price: $284.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-watch-se-lte-40mm-starlight-aluminum-starlight-sport-band-sm-mntk3ll-a","URL":"https://www.verizon.com/connected-smartwatches/apple-watch-se-2nd-gen-certified-pre-owned/"}
+PUT /products/_doc/27
+{"Name":"Apple Watch Series 8 (Certified Pre-Owned)","Brand":"Apple","Category":"Smartwatch","Price":"Starts at $13.16/mo\nfor 36 months, 0% APR\nRetail price: $473.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-watch-series-8-cellular-45mm-midnight-aluminum-midnight-sport-band-34fr-screen-usen-mnvl3ll-a","URL":"https://www.verizon.com/connected-smartwatches/apple-watch-series-8-certified-pre-owned/"}
+PUT /products/_doc/28
+{"Name":"Apple Watch Series 6 (Certified Pre-Owned)","Brand":"Apple","Category":"Smartwatch","Price":"Starts at $7.83/mo\nfor 36 months, 0% APR\nRetail price: $281.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-watch-series-6-blue-aluminum-sport-band-40-mm-m02r3lla-a","URL":"https://www.verizon.com/connected-smartwatches/apple-watch-series-6-certified-pre-owned/"}
+PUT /products/_doc/29
+{"Name":"Apple Watch Series 7 (Certified Pre-Owned)","Brand":"Apple","Category":"Smartwatch","Price":"Starts at $10.94/mo\nfor 36 months, 0% APR\nRetail price: $393.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-watch-series-7-lte-41mm-starlight-aluminum-starlight-sport-band-mkh83ll-a-sku4790161","URL":"https://www.verizon.com/connected-smartwatches/apple-watch-series-7-certified-pre-owned/"}
+PUT /products/_doc/30
+{"Name":"Apple Watch SE (Certified Pre-Owned)","Brand":"Apple","Category":"Smartwatch","Price":"Starts at $7.66/mo\nfor 36 months, 0% APR\nRetail price: $275.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/Apple_Watch_SE_LTE_40mm_Gold_Aluminum_Pink_Sand_Sport_Band_1","URL":"https://www.verizon.com/connected-smartwatches/apple-watch-se-certified-pre-owned/"}
+PUT /products/_doc/31
+{"Name":"Apple Watch Ultra","Brand":"Apple","Category":"Smartwatch","Price":"Starts at $22.22/mo\nfor 36 months, 0% APR\nRetail price: $799.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-watch-ultra-cellular-49mm-titanium-orange-alpine-loop-s-mnha3ll-a-a","URL":"https://www.verizon.com/connected-smartwatches/apple-watch-ultra/"}
+PUT /products/_doc/32
+{"Name":"Apple Watch SE","Brand":"Apple","Category":"Smartwatch","Price":"Starts at $7.77/mo\nfor 36 months, 0% APR\nRetail price: $279.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-watch-se-space-gray-aluminum-nike-sport-band-40mm-aw-n-se-40-sg-ab-n-mkqu3ll-a","URL":"https://www.verizon.com/connected-smartwatches/apple-watch-se/"}
+PUT /products/_doc/33
+{"Name":"Apple Watch Series 6","Brand":"Apple","Category":"Smartwatch","Price":"Starts at $12.49/mo\nfor 36 months, 0% APR\nRetail price: $449.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-watch-series-6-red-aluminum-sport-band-40-mm-m02t3lla-a","URL":"https://www.verizon.com/connected-smartwatches/apple-watch-series-6/"}
+PUT /products/_doc/34
+{"Name":"Apple Watch Series 4 (Certified Pre-Owned)","Brand":"Apple","Category":"Smartwatch","Price":"Starts at $5.49/mo\nfor 36 months, 0% APR\nRetail price: $197.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/Apple_Watch_Series_4_GPS_Plus_Cellular_40mm_Aluminum_Case_with_Sport_Band_MTUJ2LLA","URL":"https://www.verizon.com/connected-smartwatches/apple-watch-series-4-certified-pre-owned/"}
+PUT /products/_doc/35
+{"Name":"Apple Watch Series 5 (Certified Pre-Owned)","Brand":"Apple","Category":"Smartwatch","Price":"Starts at $7.22/mo\nfor 36 months, 0% APR\nRetail price: $259.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-watch-series-5-gold-aluminum-40mm-sport-band-pink-sand-vert-mwwp2lla-a","URL":"https://www.verizon.com/connected-smartwatches/apple-watch-series-5-certified-pre-owned/"}
+PUT /products/_doc/36
+{"Name":"Samsung Galaxy Watch6","Brand":"Samsung","Category":"Smartwatch","Price":"Starts at $9.72/mo\nfor 36 months, 0% APR\nRetail price: $349.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-galaxy-watch6-001-front-graphite-40mm-mms","URL":"https://www.verizon.com/connected-smartwatches/samsung-galaxy-watch6/"}
+PUT /products/_doc/37
+{"Name":"Samsung Galaxy Watch6 Classic","Brand":"Samsung","Category":"Smartwatch","Price":"Starts at $12.49/mo\nfor 36 months, 0% APR\nRetail price: $449.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-galaxy-watch-6-classic-pre-order-graphite-43mm-smr955uzkv-a","URL":"https://www.verizon.com/connected-smartwatches/samsung-galaxy-watch6-classic/"}
+PUT /products/_doc/38
+{"Name":"Samsung Galaxy Watch5","Brand":"Samsung","Category":"Smartwatch","Price":"Starts at $9.99/mo\nfor 36 months, 0% APR\nRetail price: $359.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-galaxy-watch5-44m-sapphire-smr915uzbv","URL":"https://www.verizon.com/connected-smartwatches/samsung-galaxy-watch5/"}
+PUT /products/_doc/39
+{"Name":"Samsung Galaxy Watch5 Pro","Brand":"Samsung","Category":"Smartwatch","Price":"Starts at $13.88/mo\nfor 36 months, 0% APR\nRetail price: $499.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-galaxy-watch5-pro-r925-001-gray-titanium","URL":"https://www.verizon.com/connected-smartwatches/samsung-galaxy-watch5-pro/"}
+PUT /products/_doc/40
+{"Name":"Samsung Galaxy Watch4","Brand":"Samsung","Category":"Smartwatch","Price":"Starts at $6.94/mo\nfor 36 months, 0% APR\nRetail price: $249.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-fresh-40mm-pink-gold-smr865uzgv","URL":"https://www.verizon.com/connected-smartwatches/samsung-galaxy-watch4/"}
+PUT /products/_doc/41
+{"Name":"Samsung Galaxy Watch4 Classic","Brand":"Samsung","Category":"Smartwatch","Price":"Starts at $11.11/mo\nfor 36 months, 0% APR\nRetail price: $399.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/wise-watch4-classic-42mm-smr885uzsv-silver-42mm-a","URL":"https://www.verizon.com/connected-smartwatches/samsung-galaxy-watch4-classic/"}
+PUT /products/_doc/42
+{"Name":"Apple iPhone 15 Pro","Brand":"Apple","Category":"Smartphone","Price":"Starts at $27.77/mo\nfor 36 months, 0% APR\nRetail price: $999.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-iphone-15-pro-1tb-natural-titanium-mtu53ll-a-a","URL":"https://www.verizon.com/smartphones/apple-iphone-15-pro/"}
+PUT /products/_doc/43
+{"Name":"Apple iPhone 15","Brand":"Apple","Category":"Smartphone","Price":"Starts at $23.05/mo\nfor 36 months, 0% APR\nRetail price: $829.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-iphone-15-128gb-pink-mtlw3ll-a-a","URL":"https://www.verizon.com/smartphones/apple-iphone-15/"}
+PUT /products/_doc/44
+{"Name":"Apple iPhone 15 Pro Max","Brand":"Apple","Category":"Smartphone","Price":"Starts at $33.33/mo\nfor 36 months, 0% APR\nRetail price: $1199.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-iphone-15-pro-max-256gb-natural-titanium-mu683ll-a-a","URL":"https://www.verizon.com/smartphones/apple-iphone-15-pro-max/"}
+PUT /products/_doc/45
+{"Name":"Apple iPhone 15 Plus","Brand":"Apple","Category":"Smartphone","Price":"Starts at $25.83/mo\nfor 36 months, 0% APR\nRetail price: $929.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-iphone-15-plus-128gb-pink-mtxt3ll-a-a","URL":"https://www.verizon.com/smartphones/apple-iphone-15-plus/"}
+PUT /products/_doc/46
+{"Name":"Apple iPhone 14 Pro","Brand":"Apple","Category":"Smartphone","Price":"Starts at $0/mo\n$24.99/mo\nDetails\nfor 36 months, 0% APR\nRetail price: $899.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/iphone-14-pro-gold-fall22-a","URL":"https://www.verizon.com/smartphones/apple-iphone-14-pro/"}
+PUT /products/_doc/47
+{"Name":"Apple iPhone 14","Brand":"Apple","Category":"Smartphone","Price":"Starts at $0/mo\n$20.27/mo\nDetails\nfor 36 months, 0% APR\nRetail price: $729.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/iphone-14-yellow-spring2023","URL":"https://www.verizon.com/smartphones/apple-iphone-14/"}
+PUT /products/_doc/48
+{"Name":"Apple iPhone 14 Plus","Brand":"Apple","Category":"Smartphone","Price":"Starts at $0/mo\n$23.05/mo\nDetails\nfor 36 months, 0% APR\nRetail price: $829.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/iphone-14-plus-midnight-fall22-a","URL":"https://www.verizon.com/smartphones/apple-iphone-14-plus/"}
+PUT /products/_doc/49
+{"Name":"Apple iPhone 14 Pro Max","Brand":"Apple","Category":"Smartphone","Price":"Starts at $0/mo\n$27.77/mo\nDetails\nfor 36 months, 0% APR\nRetail price: $999.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/iphone-14-pro-max-gold-fall22-a","URL":"https://www.verizon.com/smartphones/apple-iphone-14-pro-max/"}
+PUT /products/_doc/50
+{"Name":"Apple iPhone 12","Brand":"Apple","Category":"Smartphone","Price":"Starts at $16.66/mo\nfor 36 months, 0% APR\nRetail price: $599.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-iphone-12-black-10132020","URL":"https://www.verizon.com/smartphones/apple-iphone-12/"}
+PUT /products/_doc/51
+{"Name":"Apple iPhone SE (3rd Gen)","Brand":"Apple","Category":"Smartphone","Price":"Starts at $0/mo\n$11.94/mo\nDetails\nfor 36 months, 0% APR\nRetail price: $429.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-iphone-se-midnight-2022","URL":"https://www.verizon.com/smartphones/apple-iphone-se-2022/"}
+PUT /products/_doc/52
+{"Name":"Apple iPhone 13","Brand":"Apple","Category":"Smartphone","Price":"Starts at $0/mo\n$17.49/mo\nDetails\nfor 36 months, 0% APR\nRetail price: $629.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-iphone-13-starlight-09142021","URL":"https://www.verizon.com/smartphones/apple-iphone-13/"}
+PUT /products/_doc/53
+{"Name":"Apple iPhone 13 mini","Brand":"Apple","Category":"Smartphone","Price":"Starts at $0/mo\n$16.66/mo\nDetails\nfor 36 months, 0% APR\nRetail price: $599.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/apple-iphone-13-mini-projectred","URL":"https://www.verizon.com/smartphones/apple-iphone-13-mini/"}
+PUT /products/_doc/54
+{"Name":"Samsung Galaxy Z Fold5","Brand":"Samsung","Category":"Smartphone","Price":"Starts at $49.99/mo\nfor 36 months, 0% APR\nRetail price: $1799.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-q5-icy-blue","URL":"https://www.verizon.com/smartphones/samsung-galaxy-z-fold5/"}
+PUT /products/_doc/55
+{"Name":"Samsung Galaxy Z Flip5","Brand":"Samsung","Category":"Smartphone","Price":"Starts at $27.77/mo\nfor 36 months, 0% APR\nRetail price: $999.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-b5-mint","URL":"https://www.verizon.com/smartphones/samsung-galaxy-z-flip5/"}
+PUT /products/_doc/56
+{"Name":"Samsung Galaxy A54 5G","Brand":"Samsung","Category":"Smartphone","Price":"Starts at $10.00/mo\n$13.88/mo\nDetails\nfor 36 months, 0% APR\nRetail price: $499.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-galaxy-a54-5g-awesome-graphite-sma546vzkv","URL":"https://www.verizon.com/smartphones/samsung-galaxy-a54-5g/"}
+PUT /products/_doc/57
+{"Name":"Samsung Galaxy S23 Ultra","Brand":"Samsung","Category":"Smartphone","Price":"Starts at $33.33/mo\nfor 36 months, 0% APR\nRetail price: $1199.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-diamond-3-green","URL":"https://www.verizon.com/smartphones/samsung-galaxy-s23-ultra/"}
+PUT /products/_doc/58
+{"Name":"Samsung Galaxy S23+","Brand":"Samsung","Category":"Smartphone","Price":"Starts at $27.77/mo\nfor 36 months, 0% APR\nRetail price: $999.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-galaxy-diamond-2-pink-lavender","URL":"https://www.verizon.com/smartphones/samsung-galaxy-s23-plus/"}
+PUT /products/_doc/59
+{"Name":"Samsung Galaxy S23","Brand":"Samsung","Category":"Smartphone","Price":"Starts at $22.22/mo\nfor 36 months, 0% APR\nRetail price: $799.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-diamond1-cream","URL":"https://www.verizon.com/smartphones/samsung-galaxy-s23/"}
+PUT /products/_doc/60
+{"Name":"Samsung Galaxy A23 5G UW","Brand":"Samsung","Category":"Smartphone","Price":"Starts at $0/mo\n$9.72/mo\nDetails\nfor 36 months, 0% APR\nRetail price: $349.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-galaxy-a23-5g-uw-sma-236vzkv","URL":"https://www.verizon.com/smartphones/samsung-galaxy-a23-5g-uw/"}
+PUT /products/_doc/61
+{"Name":"Samsung Galaxy Z Flip4","Brand":"Samsung","Category":"Smartphone","Price":"Starts at $27.77/mo\nfor 36 months, 0% APR\nRetail price: $999.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-galaxy-z-flip4-smf721ulvv-smf721ulvev-purple","URL":"https://www.verizon.com/smartphones/samsung-galaxy-z-flip4/"}
+PUT /products/_doc/62
+{"Name":"Samsung Galaxy Z Fold4","Brand":"Samsung","Category":"Smartphone","Price":"Starts at $53.33/mo\nfor 36 months, 0% APR\nRetail price: $1919.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-galaxy-z-fold4-512-gb-graygreen-smf936uzaev","URL":"https://www.verizon.com/smartphones/samsung-galaxy-z-fold4/"}
+PUT /products/_doc/63
+{"Name":"Samsung Galaxy S22+","Brand":"Samsung","Category":"Smartphone","Price":"Starts at $27.77/mo\nfor 36 months, 0% APR\nRetail price: $999.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-rainbow-g0-sms906uzwv-phantom-white-hero-color-128-gb","URL":"https://www.verizon.com/smartphones/samsung-galaxy-s22-plus/"}
+PUT /products/_doc/64
+{"Name":"Samsung Galaxy A42 5G","Brand":"Samsung","Category":"Smartphone","Price":"Starts at $9.99/mo\nfor 36 months, 0% APR\nRetail price: $359.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-galaxy-a42-5g-smartphone-black-sma426uzkv","URL":"https://www.verizon.com/smartphones/samsung-galaxy-a42-5g/"}
+PUT /products/_doc/65
+{"Name":"Samsung Galaxy S22 Ultra","Brand":"Samsung","Category":"Smartphone","Price":"Starts at $10.00/mo\n$33.33/mo\nDetails\nfor 36 months, 0% APR\nRetail price: $1199.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-galaxy-s22-ultra-green","URL":"https://www.verizon.com/smartphones/samsung-galaxy-s22-ultra/"}
+PUT /products/_doc/66
+{"Name":"Samsung Galaxy S22","Brand":"Samsung","Category":"Smartphone","Price":"Starts at $0/mo\n$19.44/mo\nDetails\nfor 36 months, 0% APR\nRetail price: $699.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-rainbow-r0-128-gb-phantom-black-sms901uzkv","URL":"https://www.verizon.com/smartphones/samsung-galaxy-s22/"}
+PUT /products/_doc/67
+{"Name":"Samsung Galaxy Z Fold3 5G","Brand":"Samsung","Category":"Smartphone","Price":"Starts at $49.99/mo\nfor 36 months, 0% APR\nRetail price: $1799.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-galaxy-q2-5g-silver-256-gb-smf926uzsv","URL":"https://www.verizon.com/smartphones/samsung-galaxy-z-fold3-5g/"}
+PUT /products/_doc/68
+{"Name":"Samsung Galaxy Z Flip3 5G","Brand":"Samsung","Category":"Smartphone","Price":"Starts at $27.77/mo\nfor 36 months, 0% APR\nRetail price: $999.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-vzw-b2-5g-cream","URL":"https://www.verizon.com/smartphones/samsung-galaxy-z-flip3-5g/"}
+PUT /products/_doc/69
+{"Name":"Samsung Galaxy S21 FE 5G","Brand":"Samsung","Category":"Smartphone","Price":"Starts at $0/mo\n$16.66/mo\nDetails\nfor 36 months, 0% APR\nRetail price: $599.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-galaxy-s21-fe-5g-graphite","URL":"https://www.verizon.com/smartphones/samsung-galaxy-s21-fe-5g/"}
+PUT /products/_doc/70
+{"Name":"Samsung Galaxy S20 FE 5G UW","Brand":"Samsung","Category":"Smartphone","Price":"Starts at $16.66/mo\nfor 36 months, 0% APR\nRetail price: $599.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-gs-20-fe-cloud-navy-smg781vzbv-09112020","URL":"https://www.verizon.com/smartphones/samsung-galaxy-s20-fe-5g-uw/"}
+PUT /products/_doc/71
+{"Name":"Samsung Galaxy A53 5G UW","Brand":"Samsung","Category":"Smartphone","Price":"Starts at $13.88/mo\nfor 36 months, 0% APR\nRetail price: $499.99","ImageURL":"https://ss7.vzw.com/is/image/VerizonWireless/samsung-galaxy-a53-5g-uw-sma536vzkv-awesome-black-128-gb","URL":"https://www.verizon.com/smartphones/samsung-galaxy-a53-5g-uw/"}
